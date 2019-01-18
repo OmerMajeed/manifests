@@ -23,6 +23,9 @@
     <copyfile dest="packages.make" src="packages.make"/>
   </project>
   <project name="contrail-provisioning" path="tools/provisioning" revision="5f84edf5e478289b4461686d7fe7486a2c844fd2" upstream="R5.0"/>
+  <project name="contrail-container-builder" remote="contrail-vpp" path="review.opencontrail.org/contrail-container-builder" revision="0ccb154c194d7352ab5ed1efa201a02ea0405b44" upstream="master"/>
+  <project name="contrail-project-config" remote="contrail-vpp" path="review.opencontrail.org/contrail-project-config" revision="c9524c72199c92d53ed463daa0cb7c3749497725" upstream="dev-env"/>
+  <project name="contrail-zuul-jobs" remote="contrail-vpp" path="review.opencontrail.org/contrail-zuul-jobs" revision="22aea96d233ae7e7d150b6db5531a1bc656deed2" upstream="dev-env"/>
   <project name="contrail-sandesh" path="tools/sandesh" revision="c6f41806da973f0a6130e214fdf763152694c876" upstream="R5.0"/>
   <project name="contrail-specs" revision="8bc1fbd7bc446f264f18997fda27edf2c8f7dfc4" upstream="master"/>
   <project name="contrail-test" path="third_party/contrail-test" revision="79c5bdbcf149ff604fa33f2d96a204853af6100b" upstream="R5.0"/>
